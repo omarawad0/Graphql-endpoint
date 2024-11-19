@@ -13,8 +13,8 @@ RUN yarn install
 # Build the React application
 RUN yarn run build
 
-# Expose port 3000
-EXPOSE 3000
+# Expose port 5000
+EXPOSE 5000
 
 # Define the entry point for the container
 CMD ["yarn", "start"]
